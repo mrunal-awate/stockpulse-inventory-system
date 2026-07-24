@@ -1,40 +1,251 @@
-# React + Vite
+# 📦 StockPulse – Smart Inventory Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> An AI-powered inventory management system that helps retailers efficiently manage stock, monitor inventory levels, analyze sales trends, and make smarter restocking decisions.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-Frontend-purple?logo=vite)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green?logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-API-black?logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-Styling-38B2AC?logo=tailwind-css)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**StockPulse** is a modern inventory management system designed to help retailers automate inventory tracking, monitor stock levels, analyze sales trends, and receive timely low-stock alerts.
 
+The application combines real-time inventory management with AI-powered demand forecasting to improve operational efficiency and reduce stock shortages.
 
+---
 
-# StockPulse - Smart Inventory Assistant
+## ✨ Features
 
-AI-powered inventory management system for retailers. Built with React, Node.js, Express, and MongoDB.
+- 📦 Inventory Management
+  - Add, update, and delete products
+  - Track stock availability in real time
 
-## Features
-- Real-time inventory tracking
-- AI demand forecasting
-- WhatsApp low-stock alerts
-- CSV/PDF export
-- Role-based admin login
+- 🤖 AI Demand Forecasting
+  - Analyze historical sales data
+  - Predict future inventory demand
+  - Suggest optimal restocking quantities
 
-## Tech Stack
-- Frontend: React + TailwindCSS
-- Backend: Express.js, MongoDB
-- AI: Custom logic with sales history analysis
+- 📊 Sales Analytics
+  - Monitor sales performance
+  - Visualize inventory insights
 
-## Setup
+- 🔔 Low Stock Alerts
+  - WhatsApp notifications for low inventory
+  - Prevent stock-outs
+
+- 📄 Export Reports
+  - Export inventory data to CSV
+  - Generate PDF reports
+
+- 🔐 Authentication
+  - Secure Admin Login
+  - Role-based access control
+
+- ⚡ Responsive UI
+  - Fast and clean user interface
+  - Mobile-friendly design
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+### AI
+- Custom demand forecasting logic using historical sales analysis
+
+---
+
+## 📂 Project Structure
+
+```
+StockPulse/
+│
+├── client/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── server/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── config/
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/mrunal-awate/stockpulse-inventory-system.git
+
+cd stockpulse-inventory-system
+```
+
+---
+
+## 📥 Install Dependencies
+
+### Frontend
+
 ```bash
 cd client
 npm install
-npm start
+```
 
+### Backend
+
+```bash
 cd server
 npm install
+```
+
+---
+
+## ▶️ Run the Application
+
+### Start Backend
+
+```bash
+cd server
 npm run dev
+```
+
+### Start Frontend
+
+```bash
+cd client
+npm run dev
+```
+
+The application will be available at:
+
+Frontend
+
+```
+http://localhost:5173
+```
+
+Backend
+
+```
+http://localhost:5000
+```
+
+---
+
+## 📊 Key Functionalities
+
+- Inventory Dashboard
+- Product Management
+- Stock Monitoring
+- Sales Tracking
+- AI Restock Suggestions
+- CSV Export
+- PDF Report Generation
+- WhatsApp Low-Stock Notifications
+- Secure Authentication
+
+---
+
+## 🔮 Future Enhancements
+
+- Barcode & QR Code Scanner
+- Multi-store Inventory Support
+- Email Notifications
+- Advanced Analytics Dashboard
+- Purchase Order Management
+- Supplier Management
+- Cloud Deployment
+- Machine Learning-based Demand Prediction
+
+---
+
+## 📸 Screenshots
+
+Add screenshots here.
+
+Example:
+
+```
+screenshots/
+    dashboard.png
+    inventory.png
+    analytics.png
+```
+
+---
+
+## 👨‍💻 Author
+
+**Mrunal Awate**
+
+GitHub:
+https://github.com/mrunal-awate
+
+LinkedIn:
+(Add your LinkedIn profile here)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch
+
+```
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```
+git commit -m "Add new feature"
+```
+
+4. Push to your branch
+
+```
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+## ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates further development.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
